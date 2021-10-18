@@ -25,3 +25,7 @@ plot_inverse_distance <- function (pxc,pceps) {
 # test function
 # x_center <- 4.0
 # plot_inverse_distance(pxc=x_center,0)
+
+# pxc (parameter) is the center of the plateau
+# pceps (parameter) is epsilon value for center of plateau
+#  plot_inverse_distance(pxc=9,pceps=0)
