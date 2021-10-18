@@ -186,3 +186,10 @@ get_data_shift_xy <- function (pdata,pgas,pyear,pdepth,plocation,pshift) {
 
 }  
 
+get_location_select <- function (pdata,plocation) {
+  callprint("get_location_select()")
+  data_select <- subset(pdata, location == plocation)
+  # return data_select
+  data_select
+}
+
