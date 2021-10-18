@@ -21,3 +21,7 @@ plot_inverse_distance <- function (pxc,pceps) {
   p2
   
 }
+
+# test function
+# x_center <- 4.0
+# plot_inverse_distance(pxc=x_center,0)
