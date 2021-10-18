@@ -5,12 +5,12 @@ year_max <- 2015 # 2015
 # define the gas_list
 gas_list <- c("H2","CO2","N2O","d13C")
 # define the location list i.e. "SAMPLE1" values in gas_data
-location_list <- c("Hainich 1","Hainich 2","Hainich 3","Hainich 4")
+location_list <- c("Location 1","Location 2","Location 3","Location 4")
 # define the depth of sensors
 depth_list <- c(5,10,20)
 
 # Location of Plot - SAMPLE1
-location <- "Hainich 1"
+location <- "Location 1"
 # x_count: number of random x-value
 x_count <- 24
 # x1: generated x-values
